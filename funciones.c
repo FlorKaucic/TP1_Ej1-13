@@ -20,3 +20,9 @@ int potencia(int x, int n)
 {
     return (n==0)?1:x*potencia(x, n-1);
 }
+
+float prox_term_raiz(float a, float ant, float tol)
+{
+    float ri=0.5*(ant+(a/ant));
+    return ((ri-ant)<tol)?ri:prox_term_raiz(a,ri,tol);
+}

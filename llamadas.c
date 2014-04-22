@@ -48,4 +48,17 @@ void llamadaExponencial()
     printf("\n\nResultado: %f", exponencial(x,tol,0));
 }
 
-
+void llamadaRaizCuadrada()
+{
+    float a, tol;
+    printf("Radicacion\n");
+    do{
+        printf("\nIngrese el radicando: ");
+        scanf("%f", &a);
+    }while(a<0);
+    do{
+        printf("\nIngrese la tolerancia: ");
+        scanf("%f", &tol);
+    }while(tol<=0);
+    printf("\n\nResultado: %f", prox_term_raiz(a,1,tol));
+}

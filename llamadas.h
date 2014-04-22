@@ -7,5 +7,8 @@
 void llamadaFactorial();
 void llamadaCombinatorio();
 void llamadaExponencial();
+void llamadaRaizCuadrada();
+
+
 
 #endif // LLAMADAS_H_INCLUDED

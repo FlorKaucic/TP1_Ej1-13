@@ -19,6 +19,9 @@ int menu()
     case 3:
         llamadaExponencial();
         break;
+    case 4:
+        llamadaRaizCuadrada();
+        break;
     }
     return opc;
 }
