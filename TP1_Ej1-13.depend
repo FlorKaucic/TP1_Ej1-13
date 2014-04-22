@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1398141263 source:c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-21\main.c
+	<stdio.h>
+	"ej1.h"
+
+1398141263 c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-21\ej1.h
+
+1398141263 source:c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-21\ej1f.c
+	"ej1.h"
+
+1398141263 source:c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\ej1f.c
+	"ej1.h"
+
+1398141263 c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\ej1.h
+
+1398177970 source:c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\main.c
+	"menu.h"
+
+1398178659 c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\menu.h
+	<stdlib.h>
+	"llamadas.h"
+
+1398178660 source:c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\menuf.c
+	"menu.h"
+
+1398178660 c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\llamadas.h
+	<stdlib.h>
+
+1398178660 source:c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\funciones.c
+	"funciones.h"
+
+1398178660 c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\funciones.h
+
+1398178659 source:c:\users\flor\documents\facultad\actuales\renata\tp1\tp1_ej1-13\llamadas.c
+	"llamadas.h"
+

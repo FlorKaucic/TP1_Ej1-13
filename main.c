@@ -1,14 +1,10 @@
-#include <stdio.h>
-#include "ej1.h"
+#include "menu.h"
 
 int main()
 {
-    int n;
-    printf("Factorial\n");
+    int opc;
     do{
-        printf("\nIngrese un numero no negativo: ");
-        scanf("%d",&n);
-    }while(n<0);
-    printf("\nResultado: %d\n\n",factorial(n));
+        opc=menu();
+    }while(opc);
     return 0;
 }
