@@ -15,7 +15,7 @@ void llamadaFactorial()
 
 void llamadaCombinatorio()
 {
-    int f, m, n;
+    int m, n;
     printf("Combinatorio\n");
     do
     {
@@ -31,3 +31,21 @@ void llamadaCombinatorio()
     while(m<n);
     printf("\nResultado: %d",combinatorio(n,m));
 }
+
+void llamadaExponencial()
+{
+    int x;
+    float tol;
+    printf("Exponencial\n");
+    do{
+        printf("\nIngrese el exponente: ");
+        scanf("%d", &x);
+    }while(x<0);
+    do{
+        printf("\nIngrese la tolerancia: ");
+        scanf("%f", &tol);
+    }while(tol<=0);
+    printf("\n\nResultado: %f", exponencial(x,tol,0));
+}
+
+
